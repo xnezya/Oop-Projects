@@ -15,7 +15,7 @@ public class programmer extends worker {
     @Override
     public void showInfo() {
         super.showInfo();
-        System.out.println("languages that programmers kknow: " + languages);
+        System.out.println("languages that programmers know: " + languages);
     }
 
 }

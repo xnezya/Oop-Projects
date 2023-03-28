@@ -11,10 +11,10 @@ public class managers extends worker {
     @Override
     public void showInfo() {
         super.showInfo();
-        System.out.println("person number that managers responsibility: " + personNum);
+        System.out.println("number of people that manager responsible: " + personNum);
     }
 
     public void makeRaise(int amountRaise) {
-        System.out.println(getName() + " workers " + amountRaise + " raise ");
+        System.out.println(" raise " + amountRaise + " workers " + getName());
     }
 }

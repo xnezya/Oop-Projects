@@ -19,7 +19,7 @@ public class count {
             System.out.println("not enough balance");
         } else {
             balance -= amount;
-            System.out.println("current balance: " + balance);
+            System.out.println("current balance:" + balance);
         }
     }
 

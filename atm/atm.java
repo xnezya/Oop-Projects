@@ -31,7 +31,7 @@ public class atm {
                 System.out.println(process);
                 System.out.println("***************************************");
 
-                while (true) { // Second while loop
+                while (true) {
                     System.out.print("select to process: ");
                     if (!scanner.hasNextLine()) {
                         break;

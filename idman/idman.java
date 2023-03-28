@@ -61,7 +61,7 @@ public class idman {
 
     public void make_burpee(int number) {
         if (burpee_number == 0) {
-            System.out.println("congratulations!");
+            System.out.println("congratulations! your burpee is completed..");
         }
         if (burpee_number - number < 0) {
             System.out.println("you have more burpee. congratulations!");
@@ -75,7 +75,7 @@ public class idman {
 
     public void make_pushup(int number) {
         if (pushup_number == 0) {
-            System.out.println("congratulations!");
+            System.out.println("congratulations! your pushup is completed..");
         }
         if (pushup_number - number < 0) {
             System.out.println("you have more pushup. congratulations!");
@@ -89,7 +89,7 @@ public class idman {
 
     public void make_situp(int number) {
         if (situp_number == 0) {
-            System.out.println("congratulations!");
+            System.out.println("congratulations! your situp is completed..");
         }
         if (situp_number - number < 0) {
             System.out.println("you have more situp. congratulations!");
@@ -103,7 +103,7 @@ public class idman {
 
     public void make_squat(int number) {
         if (squat_number == 0) {
-            System.out.println("congratulations!");
+            System.out.println("congratulations! your squat is completed..");
         }
         if (squat_number - number < 0) {
             System.out.println("you have more squat. congratulations!");

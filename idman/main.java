@@ -32,6 +32,6 @@ public class main {
             scanner.nextLine();
             idman.makeMove(kind, number);
         }
-        System.out.println("congratulations! you completed your idman.");
+        System.out.println("congratulations! your idman is completed...");
     }
 }

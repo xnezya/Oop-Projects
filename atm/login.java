@@ -6,14 +6,14 @@ public class login {
             String userName;
             String password;
 
-            System.out.print("enter user name: ");
+            System.out.print("enter user name:");
             if (scanner.hasNextLine()) {
                 userName = scanner.nextLine();
             } else {
                 return false;
             }
 
-            System.out.print("enter password: ");
+            System.out.print("enter password:");
             if (scanner.hasNextLine()) {
                 password = scanner.nextLine();
             } else {

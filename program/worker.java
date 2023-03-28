@@ -37,9 +37,9 @@ public class worker {
 
     public void showInfo() {
         System.out.println("workers informations....");
-        System.out.println("name: " + name);
-        System.out.println("surname: " + surname);
-        System.out.println("id: " + id);
+        System.out.println("name:" + name);
+        System.out.println("surname:" + surname);
+        System.out.println("id:" + id);
     }
 
 }
